@@ -17,7 +17,7 @@ export default function Home() {
           </nav>
         </div>
 
-        <main className="container mx-auto px-4 py-20">
+        <main className="container mx-auto px-4 py-16">
           <div className="text-center max-w-4xl mx-auto">
             <p className="text-xl font-bold text-white/90 mb-2 max-w-2xl mx-auto">
               Blog genzet
@@ -52,8 +52,8 @@ export default function Home() {
         
 
       <div className="bg-white dark:bg-slate-900">
-        <div className="container mx-auto px-4 py-20">
-          <div className="mt-20">
+        <div className="container mx-auto px-4 py-12">
+          <div className="mt-8">
             <h2 className="text-3xl font-bold text-center text-slate-900 dark:text-white mb-12">
               Built with Modern Technologies
             </h2>
