@@ -3,45 +3,52 @@ import { ArrowRight, Code, Palette, Zap, Shield } from "lucide-react";
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
-      {/* Header */}
+      
       <header className="container mx-auto px-4 py-6">
         <nav className="flex items-center justify-between">
           <div className="text-2xl font-bold text-slate-900 dark:text-white">
-            Front MSP
+            Logoipsum
           </div>
           <div className="hidden md:flex space-x-6">
             <a href="#" className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white transition-colors">
-              Home
-            </a>
-            <a href="#" className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white transition-colors">
-              About
-            </a>
-            <a href="#" className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white transition-colors">
-              Contact
+              James Dean
             </a>
           </div>
         </nav>
       </header>
 
-      {/* Hero Section */}
       <main className="container mx-auto px-4 py-20">
         <div className="text-center max-w-4xl mx-auto">
+          <p className="text-xl font-bold text-slate-600 dark:text-slate-300 mb-2 max-w-2xl mx-auto">
+            Blog genzet
+          </p>
           <h1 className="text-5xl md:text-6xl font-bold text-slate-900 dark:text-white mb-6">
-            Welcome to{" "}
-            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Front MSP
-            </span>
+            The Journal : Design Resources, Interviews, and Industry News
           </h1>
           <p className="text-xl text-slate-600 dark:text-slate-300 mb-8 max-w-2xl mx-auto">
-            A modern web application built with Next.js, Tailwind CSS, and the latest web technologies.
+            Your daily dose of design insights!
           </p>
-          <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors inline-flex items-center gap-2">
-            Get Started
-            <ArrowRight className="w-5 h-5" />
-          </button>
+
+          <div className="flex justify-center items-center gap-4 flex-col sm:flex-row">
+            <select
+              className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg 
+              transition-colors focus:outline-none w-full sm:w-auto pr-12"
+            >
+              <option value="">Select category</option>
+              <option value="1">Option A</option>
+              <option value="2">Option B</option>
+              <option value="3">Option C</option>
+            </select>
+
+            <input
+              type="text"
+              placeholder="Type here..."
+              className="border border-gray-300 rounded-lg px-4 py-3 w-64 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            />
+          </div>
+
         </div>
 
-        {/* Tech Stack */}
         <div className="mt-20">
           <h2 className="text-3xl font-bold text-center text-slate-900 dark:text-white mb-12">
             Built with Modern Technologies
@@ -90,7 +97,7 @@ export default function Home() {
         </div>
       </main>
 
-      {/* Footer */}
+      
       <footer className="container mx-auto px-4 py-8 border-t border-slate-200 dark:border-slate-700">
         <div className="text-center text-slate-600 dark:text-slate-300">
           <p>&copy; 2024 Front MSP. Built with modern web technologies.</p>

@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Front MSP - Modern Web Application",
-  description: "A modern web application built with Next.js, Tailwind CSS, and the latest web technologies.",
+  title: "Logoipsum",
+  description: "Your daily dose of design insights!",
 };
 
 export default function RootLayout({
