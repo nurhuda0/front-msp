@@ -41,10 +41,10 @@ export default function Home() {
               </select>
 
               <input
-                type="text"
-                placeholder="Type here..."
-                className="border border-gray-300 rounded-lg px-4 py-3 w-64 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-              />
+                    type="text"
+                    placeholder="Search articles..."
+                    className="bg-white border border-gray-300 rounded-lg px-4 py-3 w-full sm:w-64 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                />
             </div>
           </div>
         </main>
